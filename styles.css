@@ -150,7 +150,7 @@ input::placeholder {
 }
 
 /* Mobile responsive */
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .container {
     width: 100%;
     margin: 0;
