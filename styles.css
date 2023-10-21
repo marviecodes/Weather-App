@@ -153,6 +153,7 @@ input::placeholder {
 @media (max-width: 400px) {
   .container {
     width: 100%;
+    margin: 0;
   }
   .weather__info {
     grid-template-columns: none;
