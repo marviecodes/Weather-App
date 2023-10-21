@@ -138,6 +138,8 @@ input::placeholder {
 @media (max-width: 936px) {
   .container {
     width: 90%;
+    margin: 0;
+    border-radius: 0px;
   }
 
   .weather__header {
