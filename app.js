@@ -24,6 +24,30 @@ document.querySelector(".weather__search").addEventListener("submit", (e) => {
   getWeather();
 });
 
+//units
+document
+  .querySelector(".weather_unit_celsius")
+  .addEventListener("click", () => {
+    if (unit !== "metric") {
+      //change to celsius
+      unit = "metric";
+      //getWeather
+      getWeather();
+    }
+  });
+
+document
+  .querySelector(".weather_unit_fahrenheit")
+
+  .addEventListener("click", () => {
+    if (unit !== "imperial") {
+      //change to celsius
+      unit = "imperial";
+      //getWeather
+      getWeather();
+    }
+  });
+
 const convertTimeStamp = function (timestamp, timezone) {
   const convertTimeZone = timezone / 3600; //convert seconds to hours.
   const date = new Date(timestamp * 1000);
