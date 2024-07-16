@@ -5,12 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background: #171717;
 }
 
-body {
-background: #171717;
-
 .container {
+  border: 1px solid gray;
   background: #171717;
   color: #fff;
   padding: 2rem;
@@ -190,6 +189,10 @@ input::placeholder {
   .weather__units {
     margin-top: 1rem;
   }
+
+  .container {
+    border: none;
+  }
 }
 
 /* Mobile responsive */
@@ -201,5 +204,8 @@ input::placeholder {
   }
   .weather__info {
     grid-template-columns: none;
+  }
+  .container {
+    border: none;
   }
 }
